@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F0DD1827933FB100FBDB72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD1727933FB100FBDB72 /* AppDelegate.swift */; };
+		92F0DD1A27933FB100FBDB72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD1927933FB100FBDB72 /* SceneDelegate.swift */; };
+		92F0DD1C27933FB100FBDB72 /* JHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD1B27933FB100FBDB72 /* JHomeViewController.swift */; };
+		92F0DD1F27933FB100FBDB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0DD1D27933FB100FBDB72 /* Main.storyboard */; };
+		92F0DD2227933FB100FBDB72 /* Joblogic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD2027933FB100FBDB72 /* Joblogic.xcdatamodeld */; };
+		92F0DD2427933FB200FBDB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F0DD2327933FB200FBDB72 /* Assets.xcassets */; };
+		92F0DD2727933FB200FBDB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0DD2527933FB200FBDB72 /* LaunchScreen.storyboard */; };
+		92F0DD3227933FB200FBDB72 /* JoblogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD3127933FB200FBDB72 /* JoblogicTests.swift */; };
+		92F0DD3C27933FB200FBDB72 /* JoblogicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD3B27933FB200FBDB72 /* JoblogicUITests.swift */; };
+		92F0DD3E27933FB200FBDB72 /* JoblogicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD3D27933FB200FBDB72 /* JoblogicUITestsLaunchTests.swift */; };
+		92F0DD4F2793440200FBDB72 /* JButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD4E2793440200FBDB72 /* JButton.swift */; };
+		92F0DD51279346A400FBDB72 /* JCallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD50279346A400FBDB72 /* JCallListViewController.swift */; };
+		92F0DD53279346AD00FBDB72 /* JBuyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD52279346AD00FBDB72 /* JBuyListViewController.swift */; };
+		92F0DD55279346B600FBDB72 /* JSellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD54279346B600FBDB72 /* JSellListViewController.swift */; };
+		92F0DD57279346CD00FBDB72 /* JBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD56279346CD00FBDB72 /* JBaseViewController.swift */; };
+		92F0DD592793474B00FBDB72 /* JLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD582793474B00FBDB72 /* JLabel.swift */; };
+		92F0DD62279349BF00FBDB72 /* JCoreDataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD61279349BF00FBDB72 /* JCoreDataListViewModel.swift */; };
+		92F0DD682793506500FBDB72 /* JPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD672793506500FBDB72 /* JPerson.swift */; };
+		92F0DD6A2793CAF900FBDB72 /* JItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD692793CAF900FBDB72 /* JItem.swift */; };
+		92F0DD6E2793F63B00FBDB72 /* DCallListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD6D2793F63B00FBDB72 /* DCallListCell.swift */; };
+		92F0DD702793F82600FBDB72 /* DBuyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD6F2793F82600FBDB72 /* DBuyListCell.swift */; };
+		92F0DD742794165300FBDB72 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD732794165300FBDB72 /* URLRequest+Extension.swift */; };
+		92F0DD772794217700FBDB72 /* JCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD762794217700FBDB72 /* JCoreDataManager.swift */; };
+		92F0DD7B27946D6000FBDB72 /* JGenericViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD7A27946D6000FBDB72 /* JGenericViewModel.swift */; };
+		92F0DD7D2794EF7B00FBDB72 /* ItemToSell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0DD7C2794EF7B00FBDB72 /* ItemToSell+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F0DD2E27933FB200FBDB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F0DD0C27933FB100FBDB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F0DD1327933FB100FBDB72;
+			remoteInfo = Joblogic;
+		};
+		92F0DD3827933FB200FBDB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F0DD0C27933FB100FBDB72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F0DD1327933FB100FBDB72;
+			remoteInfo = Joblogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92F0DD1427933FB100FBDB72 /* Joblogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joblogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F0DD1727933FB100FBDB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F0DD1927933FB100FBDB72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92F0DD1B27933FB100FBDB72 /* JHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHomeViewController.swift; sourceTree = "<group>"; };
+		92F0DD1E27933FB100FBDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F0DD2127933FB100FBDB72 /* Joblogic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Joblogic.xcdatamodel; sourceTree = "<group>"; };
+		92F0DD2327933FB200FBDB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92F0DD2627933FB200FBDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92F0DD2827933FB200FBDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F0DD2D27933FB200FBDB72 /* JoblogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoblogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F0DD3127933FB200FBDB72 /* JoblogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblogicTests.swift; sourceTree = "<group>"; };
+		92F0DD3727933FB200FBDB72 /* JoblogicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoblogicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F0DD3B27933FB200FBDB72 /* JoblogicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblogicUITests.swift; sourceTree = "<group>"; };
+		92F0DD3D27933FB200FBDB72 /* JoblogicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoblogicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92F0DD4E2793440200FBDB72 /* JButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JButton.swift; sourceTree = "<group>"; };
+		92F0DD50279346A400FBDB72 /* JCallListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCallListViewController.swift; sourceTree = "<group>"; };
+		92F0DD52279346AD00FBDB72 /* JBuyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBuyListViewController.swift; sourceTree = "<group>"; };
+		92F0DD54279346B600FBDB72 /* JSellListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSellListViewController.swift; sourceTree = "<group>"; };
+		92F0DD56279346CD00FBDB72 /* JBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseViewController.swift; sourceTree = "<group>"; };
+		92F0DD582793474B00FBDB72 /* JLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLabel.swift; sourceTree = "<group>"; };
+		92F0DD61279349BF00FBDB72 /* JCoreDataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCoreDataListViewModel.swift; sourceTree = "<group>"; };
+		92F0DD672793506500FBDB72 /* JPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPerson.swift; sourceTree = "<group>"; };
+		92F0DD692793CAF900FBDB72 /* JItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JItem.swift; sourceTree = "<group>"; };
+		92F0DD6D2793F63B00FBDB72 /* DCallListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCallListCell.swift; sourceTree = "<group>"; };
+		92F0DD6F2793F82600FBDB72 /* DBuyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBuyListCell.swift; sourceTree = "<group>"; };
+		92F0DD732794165300FBDB72 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		92F0DD762794217700FBDB72 /* JCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCoreDataManager.swift; sourceTree = "<group>"; };
+		92F0DD7A27946D6000FBDB72 /* JGenericViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGenericViewModel.swift; sourceTree = "<group>"; };
+		92F0DD7C2794EF7B00FBDB72 /* ItemToSell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemToSell+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F0DD1127933FB100FBDB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD2A27933FB200FBDB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD3427933FB200FBDB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F0DD0B27933FB100FBDB72 = {
+			isa = PBXGroup;
+			children = (
+				92F0DD1627933FB100FBDB72 /* Joblogic */,
+				92F0DD3027933FB200FBDB72 /* JoblogicTests */,
+				92F0DD3A27933FB200FBDB72 /* JoblogicUITests */,
+				92F0DD1527933FB100FBDB72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F0DD1527933FB100FBDB72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD1427933FB100FBDB72 /* Joblogic.app */,
+				92F0DD2D27933FB200FBDB72 /* JoblogicTests.xctest */,
+				92F0DD3727933FB200FBDB72 /* JoblogicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F0DD1627933FB100FBDB72 /* Joblogic */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD752794215300FBDB72 /* Managers */,
+				92F0DD662793505600FBDB72 /* Models */,
+				92F0DD6327934BAD00FBDB72 /* Networks */,
+				92F0DD4A27933FBF00FBDB72 /* App */,
+				92F0DD4D2793422F00FBDB72 /* Custom */,
+				92F0DD4C279341BE00FBDB72 /* Storyboards */,
+				92F0DD4B27933FC900FBDB72 /* ViewControllers */,
+				92F0DD6B2793E2A200FBDB72 /* Views */,
+				92F0DD5A2793498400FBDB72 /* ViewModels */,
+				92F0DD2827933FB200FBDB72 /* Info.plist */,
+				92F0DD2027933FB100FBDB72 /* Joblogic.xcdatamodeld */,
+			);
+			path = Joblogic;
+			sourceTree = "<group>";
+		};
+		92F0DD3027933FB200FBDB72 /* JoblogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD3127933FB200FBDB72 /* JoblogicTests.swift */,
+			);
+			path = JoblogicTests;
+			sourceTree = "<group>";
+		};
+		92F0DD3A27933FB200FBDB72 /* JoblogicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD3B27933FB200FBDB72 /* JoblogicUITests.swift */,
+				92F0DD3D27933FB200FBDB72 /* JoblogicUITestsLaunchTests.swift */,
+			);
+			path = JoblogicUITests;
+			sourceTree = "<group>";
+		};
+		92F0DD4A27933FBF00FBDB72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD2327933FB200FBDB72 /* Assets.xcassets */,
+				92F0DD1727933FB100FBDB72 /* AppDelegate.swift */,
+				92F0DD1927933FB100FBDB72 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92F0DD4B27933FC900FBDB72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD56279346CD00FBDB72 /* JBaseViewController.swift */,
+				92F0DD1B27933FB100FBDB72 /* JHomeViewController.swift */,
+				92F0DD50279346A400FBDB72 /* JCallListViewController.swift */,
+				92F0DD52279346AD00FBDB72 /* JBuyListViewController.swift */,
+				92F0DD54279346B600FBDB72 /* JSellListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		92F0DD4C279341BE00FBDB72 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD1D27933FB100FBDB72 /* Main.storyboard */,
+				92F0DD2527933FB200FBDB72 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		92F0DD4D2793422F00FBDB72 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD4E2793440200FBDB72 /* JButton.swift */,
+				92F0DD582793474B00FBDB72 /* JLabel.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		92F0DD5A2793498400FBDB72 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD61279349BF00FBDB72 /* JCoreDataListViewModel.swift */,
+				92F0DD7A27946D6000FBDB72 /* JGenericViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		92F0DD6327934BAD00FBDB72 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD732794165300FBDB72 /* URLRequest+Extension.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		92F0DD662793505600FBDB72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD672793506500FBDB72 /* JPerson.swift */,
+				92F0DD692793CAF900FBDB72 /* JItem.swift */,
+				92F0DD7C2794EF7B00FBDB72 /* ItemToSell+Extension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92F0DD6B2793E2A200FBDB72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD6C2793F63300FBDB72 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92F0DD6C2793F63300FBDB72 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD6D2793F63B00FBDB72 /* DCallListCell.swift */,
+				92F0DD6F2793F82600FBDB72 /* DBuyListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		92F0DD752794215300FBDB72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				92F0DD762794217700FBDB72 /* JCoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F0DD1327933FB100FBDB72 /* Joblogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F0DD4127933FB200FBDB72 /* Build configuration list for PBXNativeTarget "Joblogic" */;
+			buildPhases = (
+				92F0DD1027933FB100FBDB72 /* Sources */,
+				92F0DD1127933FB100FBDB72 /* Frameworks */,
+				92F0DD1227933FB100FBDB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joblogic;
+			productName = Joblogic;
+			productReference = 92F0DD1427933FB100FBDB72 /* Joblogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F0DD2C27933FB200FBDB72 /* JoblogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F0DD4427933FB200FBDB72 /* Build configuration list for PBXNativeTarget "JoblogicTests" */;
+			buildPhases = (
+				92F0DD2927933FB200FBDB72 /* Sources */,
+				92F0DD2A27933FB200FBDB72 /* Frameworks */,
+				92F0DD2B27933FB200FBDB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F0DD2F27933FB200FBDB72 /* PBXTargetDependency */,
+			);
+			name = JoblogicTests;
+			productName = JoblogicTests;
+			productReference = 92F0DD2D27933FB200FBDB72 /* JoblogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92F0DD3627933FB200FBDB72 /* JoblogicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F0DD4727933FB200FBDB72 /* Build configuration list for PBXNativeTarget "JoblogicUITests" */;
+			buildPhases = (
+				92F0DD3327933FB200FBDB72 /* Sources */,
+				92F0DD3427933FB200FBDB72 /* Frameworks */,
+				92F0DD3527933FB200FBDB72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F0DD3927933FB200FBDB72 /* PBXTargetDependency */,
+			);
+			name = JoblogicUITests;
+			productName = JoblogicUITests;
+			productReference = 92F0DD3727933FB200FBDB72 /* JoblogicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F0DD0C27933FB100FBDB72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = J;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					92F0DD1327933FB100FBDB72 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					92F0DD2C27933FB200FBDB72 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 92F0DD1327933FB100FBDB72;
+					};
+					92F0DD3627933FB200FBDB72 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 92F0DD1327933FB100FBDB72;
+					};
+				};
+			};
+			buildConfigurationList = 92F0DD0F27933FB100FBDB72 /* Build configuration list for PBXProject "Joblogic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92F0DD0B27933FB100FBDB72;
+			productRefGroup = 92F0DD1527933FB100FBDB72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F0DD1327933FB100FBDB72 /* Joblogic */,
+				92F0DD2C27933FB200FBDB72 /* JoblogicTests */,
+				92F0DD3627933FB200FBDB72 /* JoblogicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F0DD1227933FB100FBDB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0DD2727933FB200FBDB72 /* LaunchScreen.storyboard in Resources */,
+				92F0DD2427933FB200FBDB72 /* Assets.xcassets in Resources */,
+				92F0DD1F27933FB100FBDB72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD2B27933FB200FBDB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD3527933FB200FBDB72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F0DD1027933FB100FBDB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0DD1C27933FB100FBDB72 /* JHomeViewController.swift in Sources */,
+				92F0DD772794217700FBDB72 /* JCoreDataManager.swift in Sources */,
+				92F0DD1827933FB100FBDB72 /* AppDelegate.swift in Sources */,
+				92F0DD2227933FB100FBDB72 /* Joblogic.xcdatamodeld in Sources */,
+				92F0DD7B27946D6000FBDB72 /* JGenericViewModel.swift in Sources */,
+				92F0DD742794165300FBDB72 /* URLRequest+Extension.swift in Sources */,
+				92F0DD57279346CD00FBDB72 /* JBaseViewController.swift in Sources */,
+				92F0DD53279346AD00FBDB72 /* JBuyListViewController.swift in Sources */,
+				92F0DD592793474B00FBDB72 /* JLabel.swift in Sources */,
+				92F0DD682793506500FBDB72 /* JPerson.swift in Sources */,
+				92F0DD6A2793CAF900FBDB72 /* JItem.swift in Sources */,
+				92F0DD51279346A400FBDB72 /* JCallListViewController.swift in Sources */,
+				92F0DD55279346B600FBDB72 /* JSellListViewController.swift in Sources */,
+				92F0DD6E2793F63B00FBDB72 /* DCallListCell.swift in Sources */,
+				92F0DD62279349BF00FBDB72 /* JCoreDataListViewModel.swift in Sources */,
+				92F0DD4F2793440200FBDB72 /* JButton.swift in Sources */,
+				92F0DD702793F82600FBDB72 /* DBuyListCell.swift in Sources */,
+				92F0DD7D2794EF7B00FBDB72 /* ItemToSell+Extension.swift in Sources */,
+				92F0DD1A27933FB100FBDB72 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD2927933FB200FBDB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0DD3227933FB200FBDB72 /* JoblogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD3327933FB200FBDB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F0DD3E27933FB200FBDB72 /* JoblogicUITestsLaunchTests.swift in Sources */,
+				92F0DD3C27933FB200FBDB72 /* JoblogicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F0DD2F27933FB200FBDB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F0DD1327933FB100FBDB72 /* Joblogic */;
+			targetProxy = 92F0DD2E27933FB200FBDB72 /* PBXContainerItemProxy */;
+		};
+		92F0DD3927933FB200FBDB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F0DD1327933FB100FBDB72 /* Joblogic */;
+			targetProxy = 92F0DD3827933FB200FBDB72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92F0DD1D27933FB100FBDB72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F0DD1E27933FB100FBDB72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F0DD2527933FB200FBDB72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F0DD2627933FB200FBDB72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F0DD3F27933FB200FBDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92F0DD4027933FB200FBDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F0DD4227933FB200FBDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Joblogic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.Joblogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92F0DD4327933FB200FBDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Joblogic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.Joblogic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92F0DD4527933FB200FBDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.JoblogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joblogic.app/Joblogic";
+			};
+			name = Debug;
+		};
+		92F0DD4627933FB200FBDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.JoblogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joblogic.app/Joblogic";
+			};
+			name = Release;
+		};
+		92F0DD4827933FB200FBDB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.JoblogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Joblogic;
+			};
+			name = Debug;
+		};
+		92F0DD4927933FB200FBDB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XDY972F9FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanisnhp.joblogic.JoblogicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Joblogic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F0DD0F27933FB100FBDB72 /* Build configuration list for PBXProject "Joblogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F0DD3F27933FB200FBDB72 /* Debug */,
+				92F0DD4027933FB200FBDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F0DD4127933FB200FBDB72 /* Build configuration list for PBXNativeTarget "Joblogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F0DD4227933FB200FBDB72 /* Debug */,
+				92F0DD4327933FB200FBDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F0DD4427933FB200FBDB72 /* Build configuration list for PBXNativeTarget "JoblogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F0DD4527933FB200FBDB72 /* Debug */,
+				92F0DD4627933FB200FBDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F0DD4727933FB200FBDB72 /* Build configuration list for PBXNativeTarget "JoblogicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F0DD4827933FB200FBDB72 /* Debug */,
+				92F0DD4927933FB200FBDB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92F0DD2027933FB100FBDB72 /* Joblogic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92F0DD2127933FB100FBDB72 /* Joblogic.xcdatamodel */,
+			);
+			currentVersion = 92F0DD2127933FB100FBDB72 /* Joblogic.xcdatamodel */;
+			path = Joblogic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92F0DD0C27933FB100FBDB72 /* Project object */;
+}
